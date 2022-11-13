@@ -7,7 +7,7 @@ public class FollowPlayer : MonoBehaviour
     //Variable attached to the camera
     public GameObject player;
     //Variable used to modify valors of camera's position over time if needed
-    private Vector3 offset = new Vector3(0, 9, -10);
+    private Vector3 offset = new Vector3(0, 4, -14);
 
     // Start is called before the first frame update
     void Start()
