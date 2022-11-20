@@ -14,6 +14,12 @@ public class PlayerPropeller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Q,S,D,Z = left, down, right, up 
+        transform.Rotate(0, 0, propellerSpeed);
+       
+    }
+
+    void turningPropeller() {
         transform.Rotate(0, 0, propellerSpeed);
     }
 }
